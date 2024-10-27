@@ -1,0 +1,28 @@
+[
+    {
+      "id": 1,
+      "name": "Smart Watch X12",
+      "price": 199.99
+    },
+    {
+      "id": 2,
+      "name": "Smart Watch Pro 2",
+      "price": 249.99
+    },
+    {
+      "id": 3,
+      "name": "ActiveFit 3000",
+      "price": 179.50
+    },
+    {
+      "id": 4,
+      "name": "HealthTrack Plus",
+      "price": 220.00
+    },
+    {
+      "id": 5,
+      "name": "UltraWatch Max",
+      "price": 299.99
+    }
+  ]
+  
