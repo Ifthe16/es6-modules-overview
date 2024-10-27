@@ -4,16 +4,16 @@ import Watch from './components/Watch/Watch'
 
 function App() {
   const [watches, setWatches] = useState([]);
-  /* useEffect(()=>{
+  useEffect(()=>{
     fetch('watches.json')
     .then (res => res.json())
     .then(data => setWatches(data))
-  },[]) */
-  useEffect(() => {
-    fetch('https://raw.githubusercontent.com/Ifthe16/es6-modules-overview/refs/heads/main/watches.json')
-      .then(res => res.json())
-      .then(data => setWatches(data))
-  }, [])
+  },[])
+  // useEffect(() => {
+  //   fetch('https://raw.githubusercontent.com/Ifthe16/es6-modules-overview/refs/heads/main/watches.json')
+  //     .then(res => res.json())
+  //     .then(data => setWatches(data))
+  // }, [])
   // const watches = [
   //   {id: 1, name: 'Apple watch', price:200},
   //   {id: 2, name: 'Samsu watch', price:200},
